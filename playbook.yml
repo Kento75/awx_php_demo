@@ -1,0 +1,7 @@
+---
+- name: Hello PHP!
+  hosts: all
+
+  tasks:
+    - name: php -v
+      shell: php -v
